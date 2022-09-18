@@ -1,14 +1,16 @@
 
 :root{
     --github-bg-color:black;
-    --github-bg-color-shade:rgb(216, 209, 209);
+    --github-bg-color-shade:rgba(0,0,0,0.2);
     --github-bg-white : #fff;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+ /* HEADER */
 
 .project-header {
     background-color: var(--github-bg-color);
@@ -40,10 +42,51 @@
     height: 41px;
     width: 41px;
     border-radius: 50%;
+    transition: 1.5s ease-in-out;
 }
 
 .gh-btn:hover {
     scale: 125%;
-    transition: 2s;
+    transition: 1.5s;
     background-color: whitesmoke;
 }
+
+/* HEADER */
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 45%;
+    height: 45%;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 var(--github-bg-color-shade);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 var(--github-bg-color-shade);
+}
+
+.input-name {
+    width: 75%;
+    outline: none;
+    border: none;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+/* CONTAINER */
