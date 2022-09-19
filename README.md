@@ -78,11 +78,11 @@ or
 6) To see changes :
 
 ```sh
-    git diff
+    git show
 ```
 or 
 ```sh
-    git diff file_name
+    git show file_name
 ```
 > You can see a specific file's changes
 
