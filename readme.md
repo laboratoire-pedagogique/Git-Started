@@ -4,10 +4,10 @@
 We're gonna learn Git with a simple example so let's git started (haha 😃).
 What is required for this kata ?
 
->>Git installed on your computer/laptop
+>Git installed on your computer/laptop
 
 ## Linux/Mac
-Make sure that git is already installed.
+Make sure that git is already installed altough it should be the case.
 For Debian/Ubuntu distro, you can use this command to install git:
 
 ```bash
@@ -47,3 +47,18 @@ git add hello_world.txt
 ```bash
 git commit -m "chore: display hello world with js" 
 ```
+
+## Push
+
+1) Now create a repository named **hello-world** on Github.
+
+![create-repo](images/create-repo.png)
+
+> Make sure to choose public and nothing else after.
+
+2) To link the your local repository to your remote repository copy these two links:
+
+![link-repo](images/link-repo.png)
+> Make sure to use yours 'cause it is different for users and change the branch to dev
+
+3) Your local repository is now linked to your repository on Github.
