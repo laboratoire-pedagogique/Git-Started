@@ -1,64 +1,46 @@
-# Git Started
-## Learn Git with fun
+# TD5 - WEB1
 
-We're gonna learn Git with a simple example so let's git started (haha 😃).
-What is required for this kata ?
+## Prerequisites
 
->Git installed on your computer/laptop
+Make sure to read and try everything in the [readme](https://github.com/laboratoire-pedagogique/Git-Started/blob/dev/readme.md) in the branch **dev**.
 
-## Linux/Mac
-Make sure that git is already installed altough it should be the case.
-For Debian/Ubuntu distro, you can use this command to install git:
+1)Fork this repository by clicking on the **fork** button shown here:
 
-```bash
-sudo apt install git
-```
+![fork](images/fork.png)
 
-## Windows
-You can download the installer from their website [git](https://git-scm.com/download/win) and just install it.
+2)You'll be redirected here:
 
-## Let's begin
+![fork-page](images/fork-ch.png)
 
-1) Create a folder named **git-started**.
-2) Open Git Bash (**Windows**) / a terminal (**Linux**) inside the folder.
-3) We're gonna init a repository locally with this command:
+1) Fork name : **TD5-WEB1**
+2) Uncheck the "*copy the **dev** branch only*".
 
-```bash
-git init 
-```
+3)Now we're good to go !
 
-4) The default branch is named **main** or **master**. We're gonna rename it to **dev**.
-```bash
-git branch -m dev
-```
+## Incremental Button
 
-5) Create a file named **hello_world.txt** with this command:
-```bash
-echo "console.log("Hello World");" > hello_world.txt 
-```
->Alternatively you can use your favorite text editor.
+1)You are gonna create a button that will increment a count everytime we click on it.
 
-6) Now we're gonna track this file so it can be saved:
-```bash
-git add hello_world.txt
-```
+2)Try to reproduce the display shown below:
 
-7) Then we're gonna save the changes we made (*creating this file and putting content inside*):
-```bash
-git commit -m "chore: display hello world with js" 
-```
+![increment](images/increment.png)
 
-## Push
+3)When you're done don't forget to save your changes and push them to your "forked" repository.
 
-1) Now create a repository named **hello-world** on Github.
+4)Now open a pull request on the Git-Started repository:
 
-![create-repo](images/create-repo.png)
+1/Open your repository and choose your branch and click on **Contribute**:
 
-> Make sure to choose public and nothing else after.
+![contribute](images/contribute.png)
 
-2) To link the your local repository to your remote repository copy these two links:
+2/Click on **Open pull request**.
 
-![link-repo](images/link-repo.png)
-> Make sure to use yours 'cause it is different for users and change the branch to dev
+3/You'll be redirected to this page:
 
-3) Your local repository is now linked to your repository on Github.
+![pull](images/pull.png)
+
+>The base branch should be **td5** and the compare should be your **student's reference** like *STD2201*.
+
+4/Just click on **Create pull request**.
+
+5/That's it!
