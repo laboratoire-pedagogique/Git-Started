@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            gap: 50vh;
+            padding-left: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="count"></div>
+    <div>
+        <button>click</button>
+    </div>
+<script>
+    document.getElementById('count').innerHTML=0;
+    document.querySelector('button').addEventListener("click", ()=>{
+        document.getElementById('count').innerHTML++;
+    })
+</script>
+</body>
+</html>
